@@ -9,7 +9,7 @@
   
   <body class = "plain">
 <script>
-    fetch('/parts/autolamps')
+    fetch('/parts/lowpressure')
   .then(response => response.json())
   .then(data => {
     const titleElement = document.querySelector('h1');
@@ -23,25 +23,25 @@
 </script>
     <div class="centerPic">
         <h1 class="bigheading">Name of Button</h1>
-    <img id="image" style="width:600px;height:600px;">
+    <img id="image" src="../static/temp.png" style="width:800px;height:800px;margin-top: 100px;">
     </div>
     </br>
-    <p style="font-size: 10pt;"></p>
+    <p>This is blah blah</p>
 
     <div class = "row">
         <div class="columnButton">
             <a href="/qr">
             <!-- Scan again -->
-            <img src="../static/scan%20again.png" style="width: 250px;;height:250px;">
+            <img src="../static/scan%20again.png" style="width:300px;height:300px;">
             </a>
-            </br><h1>Scan Again</h1>
+            </br><h1 style="margin-top: 2%;">Scan Again</h1>
         </div>
         <div class="columnButton">
             <a href="/scans">
                 <!-- Recent scans -->
-                <img src="../static/recent%20scans.png" style="width:250px;height:250px;">
+                <img src="../static/recent%20scans.png" style="width:300px;height:300px;">
             </a>
-            </br><h1>Recent Scans</h1>
+            </br><h1 style="margin-top: 2%;">Recent Scans</h1>
         </div>
     </div>
     </body>
