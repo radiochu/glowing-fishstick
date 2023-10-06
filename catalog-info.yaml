@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test
+  annotations:
+    github.com/project-slug: KSING141/Hackathon-Team-4
+    sonarqube.org/project-key: com.ford.trial:test-4708
+#    fossa.io/project-name:
+#    42crunch.cloud/api-uuid:
+spec:
+  type: service
+  lifecycle: experimental
+  owner: 
